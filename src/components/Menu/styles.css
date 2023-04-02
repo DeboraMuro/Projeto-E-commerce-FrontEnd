@@ -1,0 +1,19 @@
+.menu {
+    background-color: white;
+    padding: 0 100px 20px 100px;
+}
+
+.menu > a {
+    text-decoration: none;
+    margin-right: 34.48px;
+    color: #474747;
+    font-size: 17.28px;
+    font-family: Inter;
+}
+
+.menu > .selected-link {
+    color: #C92071;
+    font-weight: 700;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #C92071;
+}

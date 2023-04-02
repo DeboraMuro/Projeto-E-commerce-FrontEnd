@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 40px 100px;
+}
+
+.navbar > a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 40px;
+}
+
+.navbar > a > .logo {
+    height: 33px;
+    width: 33px;
+    margin-right: 8px;
+    border-radius: 5px;
+}
+
+.navbar > a > span {
+    font-size: 36.4px;
+    color: #C92071;
+    font-family: Inter;
+    font-weight: 600;
+}
+
+.navbar > .input-container {
+    display: flex;
+    align-items: center;
+    background-color: #4747470A;
+    border-radius: 8.64px;
+    padding-right: 22px;
+    width: 550px;
+    margin-right: 50px;
+}
+
+.navbar > .input-container > input {
+    width: 97%;
+    height: 25px;
+    padding: 17.28px 25.92px;
+    font-size: 17.28px;
+    background-color: #47474700;
+    border: 1px solid transparent;
+    color: #666666;
+}
+
+.navbar > .input-container > input::placeholder {
+    color: #66666699;
+}
+
+.navbar > .input-container > input:focus-visible {
+    outline: none;
+}
+
+.navbar > .input-container > svg {
+    width: 3%;
+    color: #666666;
+}
+
+.navbar > .link-cadastro {
+    font-family: Inter;
+    font-size: 17.28px;
+    text-decoration: underline;
+    color: #474747;
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+.navbar > button {
+    font-family: Inter;
+    background-color: #C92071;
+    border: 1px solid #C92071;
+    border-radius: 8.64px;
+    color: white;
+    font-size: 14px;
+    width: 123.12px;
+    height: 43.2px;
+    font-weight: 700;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.navbar > .cart {
+    position: relative;
+    cursor: pointer;
+}
+
+.navbar > .cart > .cart-icon {
+    color: #C92071;
+}
+
+.navbar > .cart > .badge {
+    background-color: #C92071;
+    padding: 2.5px 5px;
+    font-size: 9px;
+    font-family: Inter;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    display: block;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+}

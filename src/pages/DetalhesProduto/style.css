@@ -1,0 +1,60 @@
+#DetlahesProdutos{
+    background-color: #F9F8FE;
+}
+
+#DetalhesProdutos .stack{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.referencia{
+    color: #666666;
+    font-size: 0.75rem;
+}
+
+ .estrelas svg{
+    color: #F6AA1C;
+}
+
+#DetalhesProduto .comprar, .comprar:hover, .avaliação, .avaliação:hover{
+    background-color: #F6AA1C;
+    color: #F5F5F5;
+}
+
+#DetalhesProduto .estrelaAvaliação {
+    color: #F5F5F5;
+}
+
+.stack{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stack .left, .stack .right{
+    font-size: 3.75rem;
+}
+
+#DetalhesProduto .botaoDeCor{
+    padding: 12px 0;
+}
+
+#DetalhesProduto .botaoDeCor .fab{
+    margin: 5px;
+}
+
+#DetalhesProduto div.duzentosEdezenove{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.duzentosEcinquenta{
+    text-decoration: line-through;
+}
+#DetalhesProduto div.cardGrande .stack{
+    height: 570px;
+}
